@@ -4,22 +4,22 @@ cask "daxie" do
 
   on_macos do
     on_intel do
-      sha256 "9f84f4aa0347adf1b9a7ac7ea4cea47db6b410ba47c0f20a0daaae809c7ce372"
+      sha256 "260911c4ca8d3d6579569ae639636b916c01e970e2e7cf8f5e795f379a4f04bb"
       url "https://github.com/daxchain-io/daxie/releases/download/v#{version}/daxie_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "f0995859172076a9736434c5e539730d8349009cd82e99e787d7ba1c20e56d2f"
+      sha256 "9e43e28f96bd05e52d0f05de4c5cd3332c7ca1931300626aec1471211d8f5708"
       url "https://github.com/daxchain-io/daxie/releases/download/v#{version}/daxie_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "6a48848e6501da31dc6e52d56f2f4e6246b0deca1579821cdb1dbbb12dd1eeba"
+      sha256 "f2e0b8c5a9b2ce17067a6bad8273773240b2e4dd11a044153a8e3e35597a1575"
       url "https://github.com/daxchain-io/daxie/releases/download/v#{version}/daxie_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "21fab6029e5ce88830e1d96324a1fb6bed54d8b793a9cc4c25dc414dbc1a2d1b"
+      sha256 "b680cab6a7d7ee336ba7620d55f060d1e808f67fb47d395d5a55e429d99c7242"
       url "https://github.com/daxchain-io/daxie/releases/download/v#{version}/daxie_#{version}_linux_arm64.tar.gz"
     end
   end
